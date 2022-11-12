@@ -12,6 +12,7 @@
 		BB16A0B8291DE59F004BA9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB16A0B7291DE59F004BA9BA /* Assets.xcassets */; };
 		BB16A0BB291DE59F004BA9BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB16A0BA291DE59F004BA9BA /* Preview Assets.xcassets */; };
 		BB16A0C2291DE8A6004BA9BA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16A0C1291DE8A6004BA9BA /* CircleImage.swift */; };
+		BB601939291F870B00B5BC13 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB601938291F870B00B5BC13 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BB16A0B7291DE59F004BA9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB16A0BA291DE59F004BA9BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB16A0C1291DE8A6004BA9BA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BB601938291F870B00B5BC13 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BB16A0C1291DE8A6004BA9BA /* CircleImage.swift */,
 				BB16A0B7291DE59F004BA9BA /* Assets.xcassets */,
 				BB16A0B9291DE59F004BA9BA /* Preview Content */,
+				BB601938291F870B00B5BC13 /* MapView.swift */,
 			);
 			path = Gwacheon;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB16A0B6291DE59D004BA9BA /* ContentView.swift in Sources */,
+				BB601939291F870B00B5BC13 /* MapView.swift in Sources */,
 				BB16A0B4291DE59D004BA9BA /* GwacheonApp.swift in Sources */,
 				BB16A0C2291DE8A6004BA9BA /* CircleImage.swift in Sources */,
 			);
