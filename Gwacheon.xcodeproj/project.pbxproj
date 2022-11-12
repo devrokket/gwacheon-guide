@@ -16,6 +16,7 @@
 		BB60193B291F943500B5BC13 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = BB60193A291F943500B5BC13 /* landmarkData.json */; };
 		BB60193D291F945A00B5BC13 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60193C291F945A00B5BC13 /* Landmark.swift */; };
 		BBDF2E11291FEF8C00410284 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF2E10291FEF8C00410284 /* ModelData.swift */; };
+		BBDF2E18291FF36500410284 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF2E17291FF36500410284 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BB60193A291F943500B5BC13 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		BB60193C291F945A00B5BC13 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		BBDF2E10291FEF8C00410284 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = Gwacheon/Model/ModelData.swift; sourceTree = SOURCE_ROOT; };
+		BBDF2E17291FF36500410284 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = gwacheon/Views/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				BB16A0C1291DE8A6004BA9BA /* CircleImage.swift */,
 				BB16A0B5291DE59D004BA9BA /* ContentView.swift */,
 				BB601938291F870B00B5BC13 /* MapView.swift */,
+				BBDF2E17291FF36500410284 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				BB16A0B4291DE59D004BA9BA /* GwacheonApp.swift in Sources */,
 				BB16A0C2291DE8A6004BA9BA /* CircleImage.swift in Sources */,
 				BB60193D291F945A00B5BC13 /* Landmark.swift in Sources */,
+				BBDF2E18291FF36500410284 /* LandmarkRow.swift in Sources */,
 				BBDF2E11291FEF8C00410284 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

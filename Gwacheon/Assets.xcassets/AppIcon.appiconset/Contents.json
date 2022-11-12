@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Screen Shot 2022-11-13 at 12.55.07 AM.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
@@ -36,6 +37,7 @@
       "size" : "60x60"
     },
     {
+      "filename" : "toriari.jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
