@@ -12,5 +12,12 @@ struct Landmark : Hashable, Codable { //makes it easier to move data between the
     private var imageName : String
     var image : Image{
         Image(imageName)
+        
+    private var coordinates: Coordinates
+
+    struct Coordinates: Hashable, Codable {
+        var latitude: Double
+        var longitude: Double
+        }
     }
 }
