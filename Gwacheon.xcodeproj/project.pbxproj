@@ -77,6 +77,7 @@
 		BB16A0B2291DE59D004BA9BA /* Gwacheon */ = {
 			isa = PBXGroup;
 			children = (
+				BB16A0B3291DE59D004BA9BA /* GwacheonApp.swift */,
 				BBDF2E14291FF13400410284 /* Resorces */,
 				BBDF2E13291FF12200410284 /* Model */,
 				BBDF2E12291FF11900410284 /* Views */,
@@ -130,7 +131,7 @@
 		BBDF2E13291FF12200410284 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BB16A0B3291DE59D004BA9BA /* GwacheonApp.swift */,
+				BB60193A291F943500B5BC13 /* landmarkData.json */,
 				BBDF2E10291FEF8C00410284 /* ModelData.swift */,
 				BB60193C291F945A00B5BC13 /* Landmark.swift */,
 			);
@@ -141,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				BB237B1C2921E732003E478C /* images */,
-				BB60193A291F943500B5BC13 /* landmarkData.json */,
 			);
 			path = Resorces;
 			sourceTree = "<group>";
