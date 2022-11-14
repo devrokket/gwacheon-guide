@@ -15,6 +15,10 @@
 		BB237B0F2921DDA7003E478C /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BB237B0D2921DDA7003E478C /* Contents.json */; };
 		BB237B102921DDA7003E478C /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB237B0E2921DDA7003E478C /* turtlerock@2x.jpg */; };
 		BB237B132921E34B003E478C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB237B122921E34B003E478C /* LandmarkList.swift */; };
+		BB237B182921E724003E478C /* govComp@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB237B142921E723003E478C /* govComp@2x.jpg */; };
+		BB237B192921E724003E478C /* natTempMuseum@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB237B152921E723003E478C /* natTempMuseum@2x.jpg */; };
+		BB237B1A2921E724003E478C /* seoulzoo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB237B162921E724003E478C /* seoulzoo@2x.jpg */; };
+		BB237B1B2921E724003E478C /* scientorium@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB237B172921E724003E478C /* scientorium@2x.jpg */; };
 		BB601939291F870B00B5BC13 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB601938291F870B00B5BC13 /* MapView.swift */; };
 		BB60193B291F943500B5BC13 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = BB60193A291F943500B5BC13 /* landmarkData.json */; };
 		BB60193D291F945A00B5BC13 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60193C291F945A00B5BC13 /* Landmark.swift */; };
@@ -32,6 +36,10 @@
 		BB237B0D2921DDA7003E478C /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		BB237B0E2921DDA7003E478C /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
 		BB237B122921E34B003E478C /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkList.swift; path = gwacheon/Views/LandmarkList.swift; sourceTree = SOURCE_ROOT; };
+		BB237B142921E723003E478C /* govComp@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "govComp@2x.jpg"; sourceTree = "<group>"; };
+		BB237B152921E723003E478C /* natTempMuseum@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "natTempMuseum@2x.jpg"; sourceTree = "<group>"; };
+		BB237B162921E724003E478C /* seoulzoo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "seoulzoo@2x.jpg"; sourceTree = "<group>"; };
+		BB237B172921E724003E478C /* scientorium@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scientorium@2x.jpg"; sourceTree = "<group>"; };
 		BB601938291F870B00B5BC13 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BB60193A291F943500B5BC13 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		BB60193C291F945A00B5BC13 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -96,6 +104,17 @@
 			path = turtlerock.imageset;
 			sourceTree = "<group>";
 		};
+		BB237B1C2921E732003E478C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BB237B152921E723003E478C /* natTempMuseum@2x.jpg */,
+				BB237B172921E724003E478C /* scientorium@2x.jpg */,
+				BB237B142921E723003E478C /* govComp@2x.jpg */,
+				BB237B162921E724003E478C /* seoulzoo@2x.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BBDF2E12291FF11900410284 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +140,7 @@
 		BBDF2E14291FF13400410284 /* Resorces */ = {
 			isa = PBXGroup;
 			children = (
+				BB237B1C2921E732003E478C /* images */,
 				BB60193A291F943500B5BC13 /* landmarkData.json */,
 			);
 			path = Resorces;
@@ -184,8 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB237B1A2921E724003E478C /* seoulzoo@2x.jpg in Resources */,
+				BB237B192921E724003E478C /* natTempMuseum@2x.jpg in Resources */,
 				BB16A0BB291DE59F004BA9BA /* Preview Assets.xcassets in Resources */,
 				BB16A0B8291DE59F004BA9BA /* Assets.xcassets in Resources */,
+				BB237B182921E724003E478C /* govComp@2x.jpg in Resources */,
+				BB237B1B2921E724003E478C /* scientorium@2x.jpg in Resources */,
 				BB60193B291F943500B5BC13 /* landmarkData.json in Resources */,
 				BB237B0F2921DDA7003E478C /* Contents.json in Resources */,
 				BB237B102921DDA7003E478C /* turtlerock@2x.jpg in Resources */,
