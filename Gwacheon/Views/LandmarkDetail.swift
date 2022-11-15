@@ -1,46 +1,48 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    var landmark: Landmark
+    
     var body: some View {
-        VStack {
-            MapView()
+        ScrollView {
+            MapView(coordinate: landmark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage()
+            CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("관악산 계곡")
+                Text(landmark.name)
                     .font(.title)
                 
                 HStack{
-                    Text("과천시 중앙동")
+                    Text(landmark.city)
                         .font(.subheadline)
                     Spacer()
-                    Text("경기도, 대한민국")
-                        .font(.subheadline)
+                    Text(landmark.state)
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
+                
                 Divider()
                 
-                Text("관악산 계곡은?")
+                Text("About \(landmark.name)")
                     .font(.title2)
-                Text("과천 향교 옆에 자리한 시원한 계곡")
+                Text(landmark.description)
 
             }
             .padding()
-            
-            Spacer()
         }
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail()
+        LandmarkDetail(landmark: landmarks[0])
     }
 }
