@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark : Hashable, Codable { //makes it easier to move data between the structure and a data file
+struct Landmark : Hashable, Codable, Identifiable { //makes it easier to move data between the structure and a data file
     //landmarkData.json 속 key 자료형에 맞춰준다. Codable: JSON파일의 데이터를 decode, encode 해주는 프로토콜
     var id: Int
     var name: String
