@@ -1,10 +1,3 @@
-//
-//  CircleImage.swift
-//  Gwacheon
-//
-//  Created by Rocket on 2022/11/11.
-//
-
 import SwiftUI
 
 struct CircleImage: View {
