@@ -1,9 +1,17 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @State private var showFavoritesOnly = true
+
+    var filteredLandmarks: [Landmark] {
+        landmarks.filter { landmark in
+            (!showFavoritesOnly || landmark.isFavorite)
+        }
+    }
+
     var body: some View {
         NavigationView {
-            List(landmarks) { landmark in
+            List(filteredLandmarks) { landmark in
                 NavigationLink {
                     LandmarkDetail(landmark: landmark)
                 } label: {
@@ -15,13 +23,10 @@ struct LandmarkList: View {
     }
 }
 
-struct LandmarList_Previews: PreviewProvider {
+struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
-                    LandmarkList()
-            .previewDevice(PreviewDevice(rawValue: "iPhone SE (2nd generation)"))
-            .previewDisplayName(deviceName)
-
-        }
+        LandmarkList()
     }
 }
+
+

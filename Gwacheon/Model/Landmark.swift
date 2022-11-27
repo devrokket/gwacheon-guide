@@ -9,6 +9,7 @@ struct Landmark : Hashable, Codable, Identifiable { //makes it easier to move da
     var state: String
     var city: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName : String
     var image : Image{
