@@ -1,4 +1,9 @@
 import Foundation
+import Combine // ObservableObject(프로토콜)를 포함하고 있는 프레임워크
+
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 var landmarks: [Landmark] = load("landmarkData.json")
 

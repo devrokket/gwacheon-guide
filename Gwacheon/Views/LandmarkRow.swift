@@ -14,6 +14,7 @@ struct LandmarkRow: View {
             
             if landmark.isFavorite {
                 Image(systemName: "star.fill")
+                    .imageScale(.medium)
                     .foregroundColor(.yellow)
             }
         }
@@ -21,6 +22,8 @@ struct LandmarkRow: View {
 }
 
 struct LandmarkRow_Previews: PreviewProvider {
+    static var landmarks = ModelData().landmarks
+
     static var previews: some View {
         Group{
             LandmarkRow(landmark: landmarks[0])
